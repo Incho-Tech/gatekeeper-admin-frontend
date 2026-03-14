@@ -5,6 +5,10 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    fontFamily: {
+      primaryFont: 'Poppins',
+      secondaryFont: 'Roboto',
+    },
     extend: {
       colors: {
         navy: '#2f375a',
@@ -12,7 +16,7 @@ module.exports = {
         white: '#eaecec',
         forest: '#3e503f',
         sky: '#8ea3bb'
-      }
+      },
     },
   },
   plugins: [],
